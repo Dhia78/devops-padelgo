@@ -295,7 +295,7 @@ DB_PASSWORD=padelgo_password
 
 ![Google Labs](screenshots/google-labs-1.png)
 
-###IBOUDA Yasser
+### IBOUDA Yasser
 
 ![Google Labs](screenshots/google-labs-2.png)
 
