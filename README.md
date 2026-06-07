@@ -206,7 +206,7 @@ Résultat attendu :
 
 ### 4. Configurer le domaine local
 
-Ajouter dans `/etc/hosts` :
+Ajouter le domaine dans `/etc/hosts` :
 
 Windows :
 
