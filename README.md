@@ -160,7 +160,7 @@ minikube addons enable ingress
 Lancer aussi le tunnel dans un terminal séparé :
 
 ```bash
-minikube tunnel
+sudo minikube tunnel
 ```
 
 ---
