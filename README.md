@@ -157,10 +157,18 @@ minikube start
 minikube addons enable ingress
 ```
 
-Lancer aussi le tunnel dans un terminal séparé :
+Lancer aussi le tunnel dans un **terminal séparé** :
+
+Linux / Mac :
 
 ```bash
 sudo minikube tunnel
+```
+
+Windows (lancer un terminal en tant qu'administrateur) : 
+
+```bash
+minikube tunnel
 ```
 
 ---
@@ -208,15 +216,19 @@ Résultat attendu :
 
 Ajouter le domaine dans `/etc/hosts` :
 
-Windows :
+Sur Linux / Mac :
 
+```bash
+sudo nano /etc/hosts
+```
+
+Sur Windows, ouvrir PowerShell ou le Bloc-notes en administrateur, puis ouvrir le fichier :
+
+```text
 C:\Windows\System32\drivers\etc\hosts
+```
 
-Linux / Mac :
-
-/etc/hosts
-
-Ajouter :
+Ajouter la ligne suivante :
 
 ```text
 127.0.0.1 padelgo.local
