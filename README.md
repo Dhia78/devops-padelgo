@@ -157,7 +157,7 @@ minikube start
 minikube addons enable ingress
 ```
 
-Sur macOS avec le driver Docker, lancer aussi le tunnel dans un terminal séparé :
+Lancer aussi le tunnel dans un terminal séparé :
 
 ```bash
 minikube tunnel
