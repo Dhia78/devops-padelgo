@@ -1,0 +1,12 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: padelgo-app-rolebinding
+subjects:
+  - kind: ServiceAccount
+    name: padelgo-app-sa
+    namespace: default
+roleRef:
+  kind: Role
+  name: padelgo-app-role
+  apiGroup: rbac.authorization.k8s.io

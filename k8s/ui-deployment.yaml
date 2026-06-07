@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: padelgo-ui
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: padelgo-ui
+  template:
+    metadata:
+      labels:
+        app: padelgo-ui
+    spec:
+      serviceAccountName: padelgo-app-sa
+      containers:
+        - name: padelgo-ui
+          image: dhia78/padelgo-ui:1.0.0
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80

@@ -1,0 +1,15 @@
+{
+  "name": "padelgo-api",
+  "version": "1.0.0",
+  "description": "API Express pour PadelGo, réservation de terrains de padel",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.3"
+  }
+}
